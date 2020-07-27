@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25275" started-at="2020-07-27T09:07:06Z" finished-at="2020-07-27T09:07:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25275" started-at="2020-07-27T09:07:06Z" finished-at="2020-07-27T09:07:31Z">
+      <class name="testcases.ProductPageTest">
+        <test-method status="PASS" signature="addproductcart()[pri:0, instance:testcases.ProductPageTest@19c0f4a]" name="addproductcart" duration-ms="2262" started-at="2020-07-27T14:37:29Z" finished-at="2020-07-27T14:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductcart -->
+      </class> <!-- testcases.ProductPageTest -->
+      <class name="testcases.HomePageTest">
+        <test-method status="PASS" signature="sendproduct()[pri:0, instance:testcases.HomePageTest@19d1a19]" name="sendproduct" duration-ms="3028" started-at="2020-07-27T14:37:26Z" finished-at="2020-07-27T14:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendproduct -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:testcases.LoginPageTest@83b407]" name="logintest" duration-ms="10125" started-at="2020-07-27T14:37:16Z" finished-at="2020-07-27T14:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.AddCartPageTest">
+        <test-method status="PASS" signature="browserinitialize()[pri:0, instance:testcases.AddCartPageTest@1622fdf]" name="browserinitialize" is-config="true" duration-ms="67302" started-at="2020-07-27T14:35:59Z" finished-at="2020-07-27T14:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialize -->
+        <test-method status="PASS" signature="addMore()[pri:0, instance:testcases.AddCartPageTest@1622fdf]" name="addMore" duration-ms="9408" started-at="2020-07-27T14:37:06Z" finished-at="2020-07-27T14:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMore -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testcases.AddCartPageTest@1622fdf]" name="TeardownTest" is-config="true" duration-ms="5975" started-at="2020-07-27T14:37:32Z" finished-at="2020-07-27T14:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- testcases.AddCartPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
